@@ -1,0 +1,102 @@
+
+body {
+
+    padding:0;
+    margin: 0;
+}
+.header {
+
+
+    background-color: aquamarine;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header h1 {
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.body {
+
+    margin:auto;
+    padding:20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.inputOptions 
+{
+    color:white;
+    display: flex;
+    flex-direction: column;
+}
+.body .input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.body img {
+
+    
+}
+.input #mytextarea {
+
+    border-radius:10px;
+    width:30%;
+}
+.body #translateBtn {
+
+    padding: 10px;
+    margin:20px;
+    color:white;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #928DAB, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #928DAB, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-weight: 700;   
+    border: none; 
+    cursor:pointer;
+}
+
+.output {
+
+  
+    padding-top: 50px;
+    height: 34%;
+}
+.outputBox {
+    background-color: white;
+    height: 20vh;
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    overflow: auto;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    text-align: center;
+    background-color: aquamarine;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.footer h2 {
+    padding:10px;
+    font-size: 30px;
+    margin:0;
+}
+.footer p {
+    padding:10px;
+    margin: 0;
+}
