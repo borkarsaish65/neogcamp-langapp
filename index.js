@@ -14,7 +14,7 @@ var i=0;
 
 
 setInterval(() => {
-   
+    
     var backgroundDivImg = 'url(assets/imgs/' + imgSlidShow[i]+ '.jpg';
     bodyElement.style.backgroundImage=backgroundDivImg;
     i++;
@@ -81,7 +81,9 @@ console.log(bodyElement);
         console.log(json)
        output1.innerText =json.contents.translated;
     })
-    .catch((Err)=>{console.log(Err)});
+    .catch((Err)=>{
+        alert('Sorry! Please try after sometimes.')
+});
 
 
 

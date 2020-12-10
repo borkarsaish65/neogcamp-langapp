@@ -40,9 +40,8 @@ body {
     align-items: center;
     flex-direction: column;
 }
-.body img {
-
-    
+.fadeOut {
+    opacity:0;
 }
 .input #mytextarea {
 
